@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the repository directory
-cd ~/repos/devops/
+cd ~/repos/devops/aws_resource_tracker
 
 # Add, commit, and push changes
 git add resourceTracker

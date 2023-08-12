@@ -1,0 +1,6 @@
+make the bash files executable by using chmod +x
+
+and in crontab -e:
+10 10 * * * ~/repos/devops/aws_resource_tracker/aws_resource_tracker.sh >> ~/repos/devops/aws_resource_tracker/resourceTracker 2>&1
+
+12 10 * * * ~/repos/devops/aws_resource_tracker/push_to_github.sh >> ~/repos/devops/aws_resource_tracker/github_push.log 2>&1
